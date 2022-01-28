@@ -4,7 +4,7 @@ def get_value(word, substitution):
     factor = 1
     for letter in reversed(word):
         s += factor * substitution[letter]
-        factor *= 10
+        factor*= 10
     return s
     
 def solve2(equation):
